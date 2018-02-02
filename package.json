@@ -1,0 +1,25 @@
+{
+  "name": "conversation-ticketstatus",
+  "description": "A simple Node.js based web app which shows how to use the Conversation API to recognize user intents.",
+  "version": "0.1.1",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joe4k/conversation-ticketstatus.git"
+  },
+  "license": "Apache-2.0",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "dotenv": "^2.0.0",
+    "express": "^4.14.0",
+    "node-csv": "^0.1.2",
+    "watson-developer-cloud": "^2.42.0"
+  },
+  "engines": {
+    "node": ">= 6.9.x",
+    "npm": "> 3.10.x"
+  }
+}
